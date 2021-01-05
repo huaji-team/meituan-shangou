@@ -1,6 +1,6 @@
 # 说明
 
-美团闪购 PHP 版的SDK  [官网地址](https://open-shangou.meituan.com/),官网值提供了Java 版本。自己撸了一个。
+美团闪购 PHP 版的SDK  [官网地址](https://open-shangou.meituan.com/),官网值提供了Java 版本。
 
 # 安装
 
