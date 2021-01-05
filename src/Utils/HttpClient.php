@@ -39,6 +39,10 @@ class HttpClient
 
     public function post($url, $data)
     {
+        $url = $url.'?app_id='.$data['app_id']."&timestamp=".$data['timestamp'].'&sig='.$data['sig'];
+        unset($data['app_id']);
+        unset($data['timestamp']);
+
         $res = $this->client->post($url, [
             'form_params' => $data
         ]);
