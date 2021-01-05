@@ -26,7 +26,6 @@ $request = new GetOrderDaySeqRequest([
 
 发送请求
 
-
 ```php
 $request = new GetOrderDaySeqRequest([
     'app_poi_code' => 281
