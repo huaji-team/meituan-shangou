@@ -4,6 +4,10 @@
 
 # 安装
 
+```shell 
+composer require huaji-team/meiguan-shagou
+```
+
 
 # 使用
 
