@@ -8,11 +8,11 @@ require_once 'vendor/autoload.php';
 
 use MeituanShanGou\Utils\Str;
 use MeituanShanGou\Request\Order\PreparationMealCompleteRequest;
-use MeituanShanGou\Request\Order\GetOrderDaySeq;
+use MeituanShanGou\Request\Order\GetOrderDaySeqRequest;
 use MeituanShanGou\ShanGouClient;
 
 
-$request = new GetOrderDaySeq([
+$request = new GetOrderDaySeqRequest([
     'app_poi_code' => 281
 ]);
 $request->setAppPoiCode(281);

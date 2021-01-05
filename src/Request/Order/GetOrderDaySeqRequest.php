@@ -9,7 +9,7 @@ namespace MeituanShanGou\Request\Order;
 
 use MeituanShanGou\AbstractRequest;
 
-class GetOrderDaySeq extends AbstractRequest
+class GetOrderDaySeqRequest extends AbstractRequest
 {
     /**
      * 门店id

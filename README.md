@@ -14,11 +14,11 @@ composer require huaji-team/meiguan-shagou
 首先创建一个请求类，添加参数。
 
 ```php
-$request = new GetOrderDaySeq();
+$request = new GetOrderDaySeqRequest();
 $request->setAppPoiCode(281);
 
 //也可以直接创建请求类传入参数
-$request = new GetOrderDaySeq([
+$request = new GetOrderDaySeqRequest([
     'app_poi_code' => 281
 ]);
 
@@ -28,7 +28,7 @@ $request = new GetOrderDaySeq([
 
 
 ```php
-$request = new GetOrderDaySeq([
+$request = new GetOrderDaySeqRequest([
     'app_poi_code' => 281
 ]);
 $request->setAppPoiCode(281);
