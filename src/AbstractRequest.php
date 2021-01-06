@@ -81,7 +81,10 @@ abstract class AbstractRequest
         foreach ($class->getProperties(\ReflectionProperty::IS_PROTECTED | \ReflectionProperty::IS_PUBLIC) as $property) {
             if (!$property->isStatic()) {
                 $name = $property->getName();
-                $attributes[Str::camel2id($name)] = $this->$name;
+
+                if ($this->$name != null) {
+                    $attributes[Str::camel2id($name)] = $this->$name;
+                }
             }
         }
 
